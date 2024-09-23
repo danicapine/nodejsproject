@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 Routes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #4a4e69;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #9a8c98;
+      margin-top: 30px;
+    }
+
+    h3 {
+      color: #c9ada7;
+    }
+
+    p {
+      margin: 15px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #22223b;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #4a4e69;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .feature {
+      background-color: #22223b;
+      color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      width: 30%;
+      margin: 10px 0;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background-color: #9a8c98;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 600px) {
+      .feature {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome!</h1>
+
+    <div class="features">
+      <div class="feature">
+        <h3>Add New Products</h3>
+        <p><a href="/users">Get Started</a></p>
+      </div>
+      <div class="feature">
+        <h3>View Listed Products</h3>
+        <p><a href="/products">View Products</a></p>
+      </div>
+      <div class="feature">
+        <h3>About Us</h3>
+        <p><a href="/abouts">Read More</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
